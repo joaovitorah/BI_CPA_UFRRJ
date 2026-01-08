@@ -1,6 +1,8 @@
 # Dashboard de Avaliação Institucional - CPA UFRRJ
 
-![Status](https://img.shields.io/badge/Status-FinalizandoRespositorio-success) ![Tipo](https://img.shields.io/badge/Arquivo-Demonstrativo-orange)
+![Status](https://img.shields.io/badge/Status-Finalizando_Repositório-success) ![Tipo](https://img.shields.io/badge/Arquivo-Demonstrativo-orange)
+
+> **🔗 [CLIQUE AQUI PARA ACESSAR O DASHBOARD INTERATIVO PUBLICADO](https://app.powerbi.com/view?r=eyJrIjoiMjI0MzVlNDEtZWJkZS00MjhkLTg1OWEtZTJhOTMyZjY5OTlhIiwidCI6IjcwZGM2ZWM0LTc0YjEtNGMyNy04MWY5LWQwMmVlMmU1NzM5NiJ9)**
 
 ## Sobre o Projeto
 
@@ -10,18 +12,26 @@ O objetivo foi transformar os dados brutos das avaliações institucionais em pa
 
 ---
 
-##  Visualização e Funcionalidades
+## ⚙️ Engenharia de Dados e Automação (ETL)
+
+Um dos maiores desafios deste projeto foi a integração e tratamento dos dados brutos fornecidos pela **COTIC (Coordenadoria de Tecnologia da Informação e Comunicação)**. Para garantir a integridade das análises, foi desenvolvido um pipeline de **ETL (Extract, Transform, Load)** robusto.
+
+* **Desafio:** Os dados originais apresentavam inconsistências de formatação e fragmentação entre diferentes sistemas, departamentos, cardinalidades da universidade e falta de anonimizaçao dos dados.
+* **Solução:** Foram desenvolvidos **scripts em Python (Pandas)** para automatizar a limpeza, padronização e unificação dessas bases.
+* **Legado:** O script foi estruturado para ser reutilizável, permitindo que a automação do tratamento de dados seja aplicada em **ciclos avaliativos futuros**, reduzindo drasticamente o tempo de preparação de relatórios nos próximos anos.
+
+---
+
+## Visualização e Funcionalidades
 
 Abaixo estão demonstradas as principais telas e capacidades analíticas da ferramenta.
 
 ### 1. Visão Geral (Overview)
 Painel principal que resume os índices gerais de satisfação da universidade.
-**
 ![Tela Geral](caminho_para_sua_imagem_geral.png)
 
 ### 2. Filtros Dinâmicos
 Capacidade de segmentar os dados por **Campus (Seropédica, Nova Iguaçu, Três Rios)** e **Instituto**.
-**
 ![Filtros](caminho_para_sua_imagem_filtros.png)
 
 ### 3. Análise Temporal
@@ -48,15 +58,15 @@ Junto ao desenvolvimento técnico do dashboard, foi elaborada uma metodologia pa
 
 ## Arquitetura e Tecnologias
 
-Embora o código fonte seja restrito, a construção do projeto utilizou a seguinte stack tecnológica:
+A construção do projeto utilizou a seguinte stack tecnológica:
 
-* **Processamento de Dados:** Python (Pandas) para limpeza e estruturação da base de dados da UFRRJ.
-* **Visualização:** Power BI para renderização dos gráficos interativos.
-* **Design:** Interface focada em usabilidade (UX) para gestores públicos.
+* **Python (Pandas):** Scripts de automação para extração e tratamento (ETL) dos dados brutos da COTIC.
+* **Power BI:** Renderização dos gráficos interativos e publicação do dashboard.
+* **UX Design:** Interface focada em usabilidade para gestores públicos.
 
 ---
 
-##  Autor
+## Autor
 
 Desenvolvido por **João Vitor Azevedo**
-*Projeto desenvolvido para fins de apoio à gestão da CPA/UFRRJ.
+*Projeto desenvolvido para fins de apoio à gestão da CPA/UFRRJ.*

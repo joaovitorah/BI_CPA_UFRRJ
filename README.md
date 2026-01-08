@@ -73,7 +73,10 @@ A construção do projeto utilizou a seguinte stack tecnológica:
 
 ---
 
-## Autor
+## Autoria e Colaboração
 
-Desenvolvido por **João Vitor Azevedo**
-*Projeto desenvolvido para fins de apoio à gestão da CPA/UFRRJ.*
+**Desenvolvedor Líder:** João Vitor Azevedo
+
+O desenvolvimento deste dashboard ocorreu em **interação constante com os Grupos de Trabalho (GTs)** da CPA/UFRRJ.
+
+A estrutura dos painéis reflete a segmentação da comissão, onde as regras de negócio e indicadores foram validados periodicamente com cada grupo responsável, garantindo aderência às necessidades reais da avaliação institucional.

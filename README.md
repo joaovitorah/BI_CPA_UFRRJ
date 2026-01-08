@@ -1,6 +1,6 @@
 # Dashboard de Avaliação Institucional - CPA UFRRJ
 
-![Status](https://img.shields.io/badge/Status-Finalizando_Repositório-success) ![Tipo](https://img.shields.io/badge/Arquivo-Demonstrativo-orange)
+![Status](https://img.shields.io/badge/Status-Finalizando_Repositório-orange) ![Tipo](https://img.shields.io/badge/Arquivo-Demonstrativo-orange)
 
 > **🔗 [CLIQUE AQUI PARA ACESSAR O DASHBOARD INTERATIVO PUBLICADO](https://app.powerbi.com/view?r=eyJrIjoiMjI0MzVlNDEtZWJkZS00MjhkLTg1OWEtZTJhOTMyZjY5OTlhIiwidCI6IjcwZGM2ZWM0LTc0YjEtNGMyNy04MWY5LWQwMmVlMmU1NzM5NiJ9)**
 

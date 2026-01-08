@@ -1,6 +1,6 @@
 # Dashboard de Avaliação Institucional - CPA UFRRJ
 
-![Status](https://img.shields.io/badge/Status-Finalizando-Repositorio-success) ![Tipo](https://img.shields.io/badge/Arquivo-Demonstrativo-orange)
+![Status](https://img.shields.io/badge/Status-FinalizandoRespositorio-success) ![Tipo](https://img.shields.io/badge/Arquivo-Demonstrativo-orange)
 
 ## Sobre o Projeto
 
